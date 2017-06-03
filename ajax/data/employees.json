@@ -1,0 +1,17 @@
+{
+	"data" : [
+		{
+			"name" : "Joseph Khan",
+			"id" : "1426",
+			"email" : "jkhan@yodlee.com"
+		}, {
+			"name" : "Amit Kumar",
+			"id" : "1761",
+			"email" : "akumar12@yodlee.com"
+		}, {
+			"name" : "Bhargav Sekhar",
+			"id" : "1768",
+			"email" : "bshekhar@yodlee.com"
+		}
+	]
+}
