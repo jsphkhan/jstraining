@@ -1,0 +1,20 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<h2>Module Pattern Demo</h2>
+		<hr/>
+		<br/>
+		<script type="text/javascript" src="module1.js"></script>
+		<script type="text/javascript" src="module2.js"></script>
+		<script type="text/javascript" src="singleton.js"></script>
+		<script type="text/javascript">
+			if(typeof MyModule !== 'undefined') {
+				console.log(MyModule.multiply(2,3,4,5,6));
+				console.log(MyModule.square(22));
+			} else {
+				console.error('Module not initialized properly');
+			}
+		</script>
+	</body>
+</html>
